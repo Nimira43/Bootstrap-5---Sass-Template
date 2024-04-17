@@ -1,7 +1,7 @@
 {
   "name": "04-starter-template",
   "version": "1.0.0",
-  "description": "Bootrap 5 boilerplate",
+  "description": "Bootstrap Sass boilerplate",
   "main": "index.js",
   "scripts": {
     "sass:build": "sass --no-source-map scss:css",
