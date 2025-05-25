@@ -43,3 +43,11 @@ html {
   top: 0;
   z-index: 100;
 }
+
+.brand {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 8rem;
+  transform: translateX(-50%);
+}
