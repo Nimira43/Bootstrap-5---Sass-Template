@@ -10,6 +10,10 @@
   outline: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 :root {
   --main: #ff4500;
   --support: #008080;
