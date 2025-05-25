@@ -66,3 +66,12 @@ html {
   top: 1rem;
   left: 1rem;
 }
+
+.logo3 {
+  width: 5rem;
+  height: 5rem;
+  border: 0.4rem solid var(--support);
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
