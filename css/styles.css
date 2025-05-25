@@ -57,3 +57,12 @@ html {
   height: 6rem;
   border: 0.4rem solid var(--main);
 }
+
+.logo2 {
+  width: 5rem;
+  height: 5rem;
+  background-color: var(--dark);
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
