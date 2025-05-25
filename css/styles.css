@@ -55,7 +55,7 @@ html {
 .logo1 {
   width: 6rem;
   height: 6rem;
-  border: 0.4rem solid var(--main);
+  border: 0.4rem solid var(--main);  
 }
 
 .logo2 {
@@ -74,4 +74,11 @@ html {
   position: absolute;
   top: 2rem;
   left: 2rem;
+}
+
+.brand span {
+  font-size: 3rem;
+  color: --light;
+  letter-spacing: 0.3rem;
+  margin: 1.5rem 0 0 3rem;
 }
