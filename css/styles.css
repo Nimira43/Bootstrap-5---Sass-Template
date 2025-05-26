@@ -78,7 +78,7 @@ html {
 
 .brand span {
   font-size: 3rem;
-  color: --light;
+  color: var(--light);
   letter-spacing: 0.3rem;
-  margin: 1.5rem 0 0 3rem;
+  margin: 1.5rem 0 0 3rem;                    
 }
