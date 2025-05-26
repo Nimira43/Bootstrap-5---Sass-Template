@@ -233,8 +233,17 @@ html {
   }
 }
 
-@media(max-width: 1200px) {
+@media(max-width: 900px) {
   html {
-    font-size: 49%;
+    font-size: 45%;
+  }
+  .search-bar input {
+    width: 30rem;
+  }
+}
+
+@media(max-width: 600px) {
+  html {
+    font-size: 35%;
   }
 }
