@@ -162,3 +162,11 @@ html {
   position: relative;
 }
 
+.navigation a:before {
+  content: '';
+  position: absolute;
+  width: 15rem;
+  height: 0.5rem;
+  background-color: var(--support);
+  
+}
