@@ -216,3 +216,25 @@ html {
   opacity: 1;
   visibility: visible;
 }
+
+@media(max-width: 1700px) {
+  
+}
+
+@media(max-width: 1400px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media(max-width: 1200px) {
+  html {
+    font-size: 49%;
+  }
+}
+
+@media(max-width: 1200px) {
+  html {
+    font-size: 49%;
+  }
+}
