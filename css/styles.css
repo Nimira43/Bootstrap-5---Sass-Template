@@ -89,3 +89,14 @@ html {
   right: 15rem;
   transform: translateY(-50%);
 }
+
+.search-bar input {
+  width: 45rem; 
+  height: 4rem; 
+  background-color: var(--grey-dark);
+  border: none;
+  padding: 2rem 2rem 2rem 4rem;
+  font-size: 1.6rem;
+  color: var(--light);
+  border-radius: 0.3rem;
+}
