@@ -141,3 +141,15 @@ html {
 .line-2 {
   background-color: var(--support);
 }
+
+.navigation {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--dark);
+  position: absolute;
+  /* top: -100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
