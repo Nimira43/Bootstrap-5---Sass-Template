@@ -162,11 +162,20 @@ html {
   position: relative;
 }
 
-.navigation a:before {
+.navigation a::before {
   content: '';
   position: absolute;
   width: 15rem;
   height: 0.5rem;
   background-color: var(--support);
-  
+  top: 50%;
+  left: -17rem;
+  transform: translateY(-50%);
+  transform: scale(0);
+  transform-origin: right;
+  transition: transform 0.3s;
+}
+
+.navigation a:hover::before {
+  transform: scale(1);
 }
