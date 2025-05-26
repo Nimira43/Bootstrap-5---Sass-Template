@@ -153,3 +153,12 @@ html {
   justify-content: center;
   align-items: center
 }
+
+.navigation a {
+  font-size: 5rem;
+  text-transform: uppercase;
+  color: var(--main);
+  margin-bottom: 1rem;
+  position: relative;
+}
+
