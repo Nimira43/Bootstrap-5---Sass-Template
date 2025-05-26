@@ -1,3 +1,5 @@
+
+
 const menuIcon = document.querySelector('.menu-icon')
 const navbar = document.querySelector('.navbar')
 
