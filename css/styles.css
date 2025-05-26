@@ -162,7 +162,8 @@ html {
   position: relative;
 }
 
-.navigation a::before {
+.navigation a::before,
+.navigation a::after {
   content: '';
   position: absolute;
   width: 15rem;
@@ -172,10 +173,19 @@ html {
   left: -17rem;
   transform: translateY(-50%);
   transform: scale(0);
-  transform-origin: right;
   transition: transform 0.3s;
 }
 
-.navigation a:hover::before {
+.navigation a::before {
+  transform-origin: right;
+}
+
+.navigation a::after {
+  transform-origin: left;
+}
+
+.navigation a:hover::before, 
+.navigation a:hover::after {
   transform: scale(1);
 }
+
