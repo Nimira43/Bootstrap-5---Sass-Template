@@ -82,3 +82,10 @@ html {
   letter-spacing: 0.3rem;
   margin: 1.5rem 0 0 3rem;                    
 }
+
+.search-bar {
+  position: absolute;
+  top: 50%;
+  right: 15rem;
+  transform: translateY(-50%);
+}
