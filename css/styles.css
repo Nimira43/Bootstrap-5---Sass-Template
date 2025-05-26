@@ -160,32 +160,10 @@ html {
   color: var(--main);
   margin-bottom: 1rem;
   position: relative;
+  transition: color 0.4s ease-in;
 }
 
-.navigation a::before,
-.navigation a::after {
-  content: '';
-  position: absolute;
-  width: 15rem;
-  height: 0.5rem;
-  background-color: var(--support);
-  top: 50%;
-  left: -17rem;
-  transform: translateY(-50%);
-  transform: scale(0);
-  transition: transform 0.3s;
-}
-
-.navigation a::before {
-  transform-origin: right;
-}
-
-.navigation a::after {
-  transform-origin: left;
-}
-
-.navigation a:hover::before, 
-.navigation a:hover::after {
-  transform: scale(1);
+.navigation a:hover {
+  color: var(--support);
 }
 
