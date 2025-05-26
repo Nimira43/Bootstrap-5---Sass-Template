@@ -56,6 +56,7 @@ html {
   width: 6rem;
   height: 6rem;
   border: 0.4rem solid var(--main);  
+  border-radius: 50%;
 }
 
 .logo2 {
@@ -65,6 +66,7 @@ html {
   position: absolute;
   top: 1rem;
   left: 1rem;
+  border-radius: 50%;
 }
 
 .logo3 {
@@ -74,6 +76,7 @@ html {
   position: absolute;
   top: 2rem;
   left: 2rem;
+  border-radius: 50%;
 }
 
 .brand span {
