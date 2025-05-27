@@ -478,5 +478,18 @@ html {
   .banner-heading {
     font-size: 5rem;
   }
+  .about {
+    justify-content: center;
+    height: 100%;
+    padding: 10rem 0 25rem 0;
+  }
+  .about-left {
+    text-align: center;
+    margin-right: 0;
+  }
+  .about-right {
+    display: none;
+  }
+
 
 }
