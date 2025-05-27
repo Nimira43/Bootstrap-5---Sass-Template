@@ -335,6 +335,7 @@ html {
   top: 15rem;
   right: 40rem;
 }
+
 .about-img-wrapper {
   width: 50rem;
   height: 35rem;
@@ -349,6 +350,15 @@ html {
   object-fit: cover;
 }
 
+.section-bottom {
+  position: absolute;
+  bottom: 2rem;
+  right: 33rem;
+  height: 12rem;
+  border-right: 0.1rem solid var(--main);
+  text-align: right;
+  padding-right: 2rem;
+}
 
 
 @media(max-width: 1700px) {
