@@ -251,6 +251,18 @@ html {
   color: var(--light)
 }
 
+.banner-content {
+  display: flex;
+  align-items: center;
+}
+
+.banner-content p {
+  width: 45rem;
+  font-size: 2rem;
+  color: var(--light);
+  margin-right: 2rem;
+}
+
 @media(max-width: 1700px) {
   
 }
