@@ -417,6 +417,9 @@ html {
   html {
     font-size: 49%;
   }
+  .about-left p {
+    width: 40rem;
+  }
 }
 
 @media(max-width: 900px) {
