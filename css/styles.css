@@ -286,7 +286,9 @@ html {
 
 
 @media(max-width: 1700px) {
-  
+  .banner {
+    left: 12rem;
+  }
 }
 
 @media(max-width: 1400px) {
