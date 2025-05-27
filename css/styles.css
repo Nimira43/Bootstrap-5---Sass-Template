@@ -293,6 +293,13 @@ html {
   position: relative;
 }
 
+.about-left h1 {
+  font-size: 5rem;
+  color: var(--dark);
+  width: 50rem;
+  margin-bottom: 6rem;
+}
+
 .about-img-wrapper {
   width: 50rem;
   height: 35rem;
