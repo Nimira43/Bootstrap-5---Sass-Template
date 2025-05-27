@@ -376,6 +376,22 @@ html {
   .banner {
     left: 12rem;
   }
+  .about-right {
+    margin-right: 20rem;
+  }
+  .frame {
+    width: 45rem;
+    height: 30rem;
+    right: 20rem;
+  }
+  .about-img-wrapper {
+    width: 45rem;
+    height: 30rem;
+    right: 13rem;
+  }
+  .experience {
+    right: 20rem;
+  }
 }
 
 @media(max-width: 1400px) {
