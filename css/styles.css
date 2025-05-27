@@ -360,6 +360,14 @@ html {
   padding-right: 2rem;
 }
 
+.section-bottom h1 {
+  font-size: 6rem;
+  color: var(--light);
+  letter-spacing: 0.1rem;
+}
+
+
+
 
 @media(max-width: 1700px) {
   .banner {
