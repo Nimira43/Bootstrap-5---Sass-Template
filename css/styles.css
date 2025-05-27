@@ -300,6 +300,13 @@ html {
   margin-bottom: 6rem;
 }
 
+.aboout-left p {
+  font-size: 2rem;
+  color: var(--dark);
+  width: 50rem;
+  margin-bottom: 5rem;
+}
+
 .about-img-wrapper {
   width: 50rem;
   height: 35rem;
