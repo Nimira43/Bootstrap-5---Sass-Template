@@ -295,18 +295,37 @@ html {
 
 .about-left h1 {
   font-size: 5rem;
-  color: var(--dark);
+  color: var(--light);
   width: 50rem;
   margin-bottom: 6rem;
 }
 
-.aboout-left p {
+.about-left p {
   font-size: 2rem;
-  color: var(--dark);
+  color: var(--light);
   width: 50rem;
   margin-bottom: 5rem;
 }
 
+.about-left button {
+  width: 18rem;
+  height: 5rem;
+  background-color: transparent;
+  border: 0.2rem solid var(--main);
+  border-radius: 0.3rem;
+  color: var(--support);
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in;
+}
+
+.about-left button:hover {
+  color: var(--main);
+  border-color: var(--support);
+}
 .about-img-wrapper {
   width: 50rem;
   height: 35rem;
@@ -320,6 +339,8 @@ html {
   height: 100%;
   object-fit: cover;
 }
+
+
 
 @media(max-width: 1700px) {
   .banner {
