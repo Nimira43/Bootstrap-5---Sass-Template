@@ -240,6 +240,13 @@ html {
   opacity: 0.4;
 }
 
+.banner {
+  position: absolute;
+  bottom: 15rem;
+  left: 20rem;
+  background-color: #fff;
+}
+
 @media(max-width: 1700px) {
   
 }
