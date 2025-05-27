@@ -310,6 +310,13 @@ html {
   .search-bar input {
     width: 30rem;
   }
+  .banner-heading {
+    font-size: 7rem;
+  }
+  .banner-content p {
+    font-size: 1.7rem;
+    width: 35rem;
+  }
 }
 
 @media(max-width: 600px) {
