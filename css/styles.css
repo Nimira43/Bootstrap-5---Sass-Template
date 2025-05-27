@@ -326,6 +326,15 @@ html {
   color: var(--main);
   border-color: var(--support);
 }
+
+.frame {
+  width: 50rem;
+  height: 35rem;
+  border: 3rem solid var(--support);
+  position: absolute;
+  top: 15rem;
+  right: 40rem;
+}
 .about-img-wrapper {
   width: 50rem;
   height: 35rem;
