@@ -263,6 +263,28 @@ html {
   margin-right: 2rem;
 }
 
+.banner-content button {
+  width: 15rem;
+  height: 5rem;
+  background-color: transparent;
+  border: 0.3rem solid var(--main);
+  border-radius: 0.3rem;
+  color: var(--support);
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  transition: all 0.4s ease-in; 
+}
+
+.banner-content button:hover {
+  color: var(--main);
+  /* background-color: var(--main); */
+  border-color: var(--support);
+}
+
+
 @media(max-width: 1700px) {
   
 }
