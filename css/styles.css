@@ -398,6 +398,19 @@ html {
   html {
     font-size: 55%;
   }
+  .frame {
+    width: 40rem;
+    height: 25rem;
+    right: 15rem;
+  }
+  .about-ing-wrapper {
+    width: 40rem;
+    right: 8rem;
+    height: 25rem;
+  }
+  .experience {
+    right: 12rem;
+  }
 }
 
 @media(max-width: 1200px) {
