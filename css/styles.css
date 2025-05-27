@@ -280,10 +280,16 @@ html {
 
 .banner-content button:hover {
   color: var(--main);
-  /* background-color: var(--main); */
   border-color: var(--support);
 }
 
+.about-img-wrapper {
+  width: 50rem;
+  height: 35rem;
+  /* position: absolute; */
+  top: 8rem;
+  right: 33rem;
+}
 
 @media(max-width: 1700px) {
   .banner {
@@ -336,5 +342,5 @@ html {
   .banner-heading {
     font-size: 5rem;
   }
-  
+
 }
