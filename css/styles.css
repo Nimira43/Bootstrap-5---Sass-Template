@@ -329,4 +329,12 @@ html {
   .navigation a {
     font-size: 3rem;
   }
+  .banner {
+    left: 5rem;
+    bottom: 18rem;
+  }
+  .banner-heading {
+    font-size: 5rem;
+  }
+  
 }
