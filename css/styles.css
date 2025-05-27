@@ -366,7 +366,10 @@ html {
   letter-spacing: 0.1rem;
 }
 
-
+.section-bottom h3 {
+  font-size: 2.5rem;
+  color: var(--light);
+}
 
 
 @media(max-width: 1700px) {
