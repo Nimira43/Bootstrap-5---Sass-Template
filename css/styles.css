@@ -449,7 +449,15 @@ html {
 .card:hover .card-content::after {
   transform: scale(1);
 }
-
+.card-content h1 {
+  font-size: 2rem;
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  width: 15rem;
+  opacity: 0;
+  visibility: hidden;
+}
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
