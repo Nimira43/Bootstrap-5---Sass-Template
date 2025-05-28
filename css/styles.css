@@ -417,7 +417,16 @@ html {
 }
 
 .card-content::before {
-  
+  content: '';
+  width: 92%;
+  height: 0.1rem;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 2rem;
+  transform: scale(0);
+  transform-origin: left;
+  transition: transform 0.8s ease-in;
 }
 
 @media(max-width: 1700px) {
