@@ -390,6 +390,13 @@ html {
   display: flex;
 }
 
+.card {
+  width: 32rem;
+  height: 50rem;
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
 
 
 @media(max-width: 1700px) {
