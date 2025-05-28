@@ -377,6 +377,13 @@ html {
   position: relative;
 }
 
+.projects-heading {
+  font-size: 8rem;
+  color: var(--light);
+  margin: 7rem 0 10rem 10rem;
+  letter-spacing: 0.2rem;
+}
+
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
