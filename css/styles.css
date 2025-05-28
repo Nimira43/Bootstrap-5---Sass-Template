@@ -433,6 +433,23 @@ html {
   transform: scale(1);
 }
 
+.card-content::after {
+  content: '';
+  width: 0.1rem;
+  height: 94%;
+  background-color: red;
+  position: absolute;
+  left: 2rem;
+  top: 0;
+  transform: scale(0);
+  transform-origin: top;
+  transition: transform 0.8s ease-in;
+}
+
+.card:hover .card-content::after {
+  transform: scale(1);
+}
+
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
