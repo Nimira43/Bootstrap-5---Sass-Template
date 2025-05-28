@@ -384,6 +384,14 @@ html {
   letter-spacing: 0.2rem;
 }
 
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+
+
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
