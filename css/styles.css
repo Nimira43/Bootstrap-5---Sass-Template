@@ -429,6 +429,10 @@ html {
   transition: transform 0.8s ease-in;
 }
 
+.card:hover .card-content::before {
+  transform: scale(1);
+}
+
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
