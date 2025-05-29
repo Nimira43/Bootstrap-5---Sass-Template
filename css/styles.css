@@ -510,7 +510,18 @@ html {
   /* .experience {
     right: 20rem;
   } */
-  
+  .projects {
+    height: 100%;
+  }
+  .cards {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25rem;
+  }
+  .card {
+    margin: 1.5rem;
+  }
 }
 
 @media(max-width: 1400px) {
