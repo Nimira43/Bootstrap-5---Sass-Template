@@ -327,15 +327,6 @@ html {
   border-color: var(--support);
 }
 
-.frame {
-  width: 50rem;
-  height: 35rem;
-  border: 3rem solid var(--support);
-  position: absolute;
-  top: 15rem;
-  right: 40rem;
-}
-
 .about-img-wrapper {
   width: 50rem;
   height: 35rem;
@@ -350,27 +341,6 @@ html {
   object-fit: cover;
 }
 
-/* .section-bottom {
-  position: absolute;
-  bottom: 2rem;
-  right: 33rem;
-  height: 12rem;
-  border-right: 0.1rem solid var(--main);
-  text-align: right;
-  padding-right: 2rem;
-}
-
-.section-bottom h1 {
-  font-size: 6rem;
-  color: var(--light);
-  letter-spacing: 0.1rem;
-}
-
-.section-bottom h3 {
-  font-size: 2.5rem;
-  color: var(--light);
-} */
-
 .projects {
   width: 100%;
   height: 100vh;
@@ -378,7 +348,8 @@ html {
 }
 
 .projects-heading {
-  font-size: 8rem;
+  text-align: center;
+  font-size: 5rem;
   color: var(--light);
   margin: 7rem 0 10rem 9rem;
   letter-spacing: 0.2rem;
@@ -484,11 +455,6 @@ html {
   visibility: visible;
   transition: all 0.5s 0.6s;
 }
-/* 
-.designs {
-  right: 12rem;
-} */
-
 
 @media(max-width: 1700px) {
   .banner {
@@ -497,19 +463,11 @@ html {
   .about-right {
     margin-right: 20rem;
   }
-  .frame {
-    width: 45rem;
-    height: 30rem;
-    right: 20rem;
-  }
   .about-img-wrapper {
     width: 45rem;
     height: 30rem;
     right: 13rem;
   }
-  /* .experience {
-    right: 20rem;
-  } */
   .projects {
     height: 100%;
   }
@@ -528,19 +486,11 @@ html {
   html {
     font-size: 55%;
   }
-  .frame {
-    width: 40rem;
-    height: 25rem;
-    right: 15rem;
-  }
   .about-ing-wrapper {
     width: 40rem;
     right: 8rem;
     height: 25rem;
   }
-  /* .experience {
-    right: 12rem;
-  } */
 }
 
 @media(max-width: 1200px) {
@@ -574,21 +524,12 @@ html {
     font-size: 1.7rem;
     width: 35rem;
   }
-  .iframe {
-    width: 30rem;
-    height: 15rem;
-    border: 1.5rem solid var(--support);
-    right: 10rem;
-  }
   .about-img-wrapper {
     width: 30rem;
     right: 7rem;
     top: 12rem;
     height: 15rem;
   }
-  /* .experience {
-    right: 7rem;
-  } */
 }
 
 @media(max-width: 600px) {
@@ -621,6 +562,6 @@ html {
     display: none;
   }
   .projects-heading {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 }
