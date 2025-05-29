@@ -465,6 +465,18 @@ html {
   transition: all 0.5s 0.6s;
 }
 
+.card-content p {
+  font-size: 1.6rem;
+  color: var(--light);
+  position: absolute;
+  top: 13rem;
+  left: 4rem;
+  width: 17rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s;
+}
+
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
