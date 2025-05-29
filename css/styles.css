@@ -471,6 +471,13 @@ html {
   letter-spacing: 0.2rem;
 }
 
+.customers-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
