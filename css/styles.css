@@ -350,7 +350,7 @@ html {
   object-fit: cover;
 }
 
-.section-bottom {
+/* .section-bottom {
   position: absolute;
   bottom: 2rem;
   right: 33rem;
@@ -369,7 +369,7 @@ html {
 .section-bottom h3 {
   font-size: 2.5rem;
   color: var(--light);
-}
+} */
 
 .projects {
   width: 100%;
@@ -380,7 +380,7 @@ html {
 .projects-heading {
   font-size: 8rem;
   color: var(--light);
-  margin: 7rem 0 10rem 10rem;
+  margin: 7rem 0 10rem 9rem;
   letter-spacing: 0.2rem;
 }
 
@@ -395,6 +395,7 @@ html {
   height: 50rem;
   margin-right: 2.5rem;
   cursor: pointer;
+  position: relative;
 }
 
 .card img {
@@ -420,7 +421,7 @@ html {
   content: '';
   width: 92%;
   height: 0.1rem;
-  background-color: red;
+  background-color: var(--light);
   position: absolute;
   left: 0;
   top: 2rem;
@@ -437,7 +438,7 @@ html {
   content: '';
   width: 0.1rem;
   height: 94%;
-  background-color: red;
+  background-color: var(--light);
   position: absolute;
   left: 2rem;
   top: 0;
@@ -449,6 +450,7 @@ html {
 .card:hover .card-content::after {
   transform: scale(1);
 }
+
 .card-content h1 {
   font-size: 2rem;
   position: absolute;
