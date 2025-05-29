@@ -464,6 +464,13 @@ html {
   position: relative;
 }
 
+.customers-heading {
+  font-size: 8rem;
+  color: var(--light);
+  margin: 0 0 10rem 9rem;
+  letter-spacing: 0.2rem;
+}
+
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
