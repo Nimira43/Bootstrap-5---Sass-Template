@@ -465,7 +465,8 @@ html {
 }
 
 .customers-heading {
-  font-size: 8rem;
+  font-size: 5rem;
+  text-align: center;
   color: var(--light);
   margin: 0 0 10rem 9rem;
   letter-spacing: 0.2rem;
@@ -483,11 +484,11 @@ html {
 }
 
 .customers-card img {
-  width: 20rem;
+  width: 15rem;
   position: absolute;
   top: -5rem;
   right: 2rem;
-  border-radius: 0.3rem;
+  border-radius: 50%;
 }
 
 .customers-card-content {
