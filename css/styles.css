@@ -482,7 +482,13 @@ html {
   position: relative;
 }
 
-
+.customers-card img {
+  width: 20rem;
+  position: absolute;
+  top: -5rem;
+  right: 2rem;
+  border-radius: 0.5rem;
+}
 
 @media(max-width: 1700px) {
   .banner {
