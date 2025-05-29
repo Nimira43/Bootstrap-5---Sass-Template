@@ -478,6 +478,12 @@ html {
   justify-content: space-evenly;
 }
 
+.customers-card {
+  position: relative;
+}
+
+
+
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
