@@ -484,10 +484,10 @@ html {
   visibility: visible;
   transition: all 0.5s 0.6s;
 }
-
+/* 
 .designs {
   right: 12rem;
-}
+} */
 
 
 @media(max-width: 1700px) {
@@ -507,9 +507,10 @@ html {
     height: 30rem;
     right: 13rem;
   }
-  .experience {
+  /* .experience {
     right: 20rem;
-  }
+  } */
+  
 }
 
 @media(max-width: 1400px) {
@@ -526,9 +527,9 @@ html {
     right: 8rem;
     height: 25rem;
   }
-  .experience {
+  /* .experience {
     right: 12rem;
-  }
+  } */
 }
 
 @media(max-width: 1200px) {
@@ -574,9 +575,9 @@ html {
     top: 12rem;
     height: 15rem;
   }
-  .experience {
+  /* .experience {
     right: 7rem;
-  }
+  } */
 }
 
 @media(max-width: 600px) {
