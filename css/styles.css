@@ -620,6 +620,7 @@ html {
   .about-right {
     display: none;
   }
-
-
+  .projects-heading {
+    font-size: 6rem;
+  }
 }
