@@ -487,7 +487,15 @@ html {
   position: absolute;
   top: -5rem;
   right: 2rem;
-  border-radius: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.customers-card-content {
+  width: 50rem;
+  height: 22rem;
+  background-color: var(--main);
+  border-radius: 0.3rem;
+  padding: 2rem;
 }
 
 @media(max-width: 1700px) {
