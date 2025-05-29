@@ -510,6 +510,11 @@ html {
   margin-bottom: 3rem;
 }
 
+.customers-card-content p {
+  font-size: 1.6rem;
+  color: var(--light);
+}
+
 @media(max-width: 1700px) {
   .banner {
     left: 12rem;
